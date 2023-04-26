@@ -1,7 +1,6 @@
 import React from "react";
 import { AiFillGithub, AiOutlineMail } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
-import Typical from "react-typical";
 import './Intro.css'
 import robot from '../../img/robot.png';
 import Crown from '../../img/crown.png';
@@ -28,20 +27,7 @@ import {useContext} from 'react'
                     <span className="text">
                         {" "}
                         <h1 >
-                            {" "}
-                            <Typical
-                            loop={Infinity}
-                            steps={[
-                                "Full Stack Developer 🧑‍💻",
-                                1000,
-                                "Front-End Developer 🧑‍💻",
-                                1000,
-                                "Back-End Developer 🧑‍💻",
-                                1000,
-                                "MERN Stack Developer 🧑‍💻",
-                                1000
-                            ]}
-                            />
+                         Full Stack Developer-MERN
                         </h1>
                         </span>
                         </div>
