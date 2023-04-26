@@ -50,3 +50,42 @@
     color: rgb(17, 16, 16);
     font-size: 15px;
 }
+
+@media screen and (max-width:640px){
+    .card{
+        transform: scale(0.8);
+        left: -0.2rem;
+        top:-3rem;
+        
+    }
+    .experience{
+        left: -0.2rem;
+        bottom: -1rem;
+    }
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .card{
+        transform: scale(1);
+        left: -0.2rem;
+        top:-2rem;
+        
+    }
+    .experience{
+        left: -0rem;
+        bottom: -1rem;
+    }
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px){
+    .card{
+        transform: scale(1.1);
+        left: -0.2rem;
+        top:-2rem;
+        
+    }
+    .experience{
+        left: 0.3rem;
+        bottom: -1rem;
+    }
+}

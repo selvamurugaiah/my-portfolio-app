@@ -44,3 +44,25 @@
 .s-name{
    font-size: 25px;
 }
+@media screen and (max-width:640px){
+    
+    .skillset{
+        flex-direction: column;
+        
+    }
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .skillset{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px){
+    .skillset{
+        flex-direction: column;
+    }
+    .headers{
+        transform: scale(1.3);
+    }
+}

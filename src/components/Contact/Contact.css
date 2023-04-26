@@ -48,3 +48,34 @@ textarea{
     color:var(--orange);
     font-size: 40px;
 }
+
+@media screen and (max-width:640px){
+    .c-left{
+        transform:scale(0.7);
+        position: relative;
+        bottom: 10rem;
+        
+    }
+    .c-right{
+        transform: scale(0.7);
+        position: relative;
+        left: -12rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .c-left{
+        transform:scale(1);
+        position: relative;
+        top: 3rem;
+        
+    }
+    .c-right{
+        transform: scale(1);
+        position: relative;
+        left: -7rem;
+        top: 12rem;
+    }  
+}

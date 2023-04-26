@@ -97,20 +97,51 @@ cursor: pointer;
     font-family:'Times New Roman', Times, serif ;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:640px){
     .intro{
      flex-direction: column;
      gap: 7rem;
     }
     .i-right{
-        transform: scale(0.8);
-        left: -9rem;
+        transform: scale(0.7);
+        left: -11rem;
     }
-    .description{
-        transform: scale(0.6);
+    span.description{
+        transform: scale(0.9);
         position: relative;
-        left: -7rem;
+        left: -0.5rem;
         width: 100%;
+        
     }
     
   }
+  @media screen and (max-width: 1024px) and (min-width: 768px){
+  .intro{
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .i-right{
+    left: -5rem;
+  }
+  .i-left{
+    left: -1rem;
+  }
+    
+  }
+
+  @media screen and (max-width: 1366px) and (min-width: 1024px){
+    .intro{
+      flex-direction: column;
+      gap: 4rem;
+    }
+    .i-right{
+      left: 4rem;
+      
+    }
+    .i-left{
+      left: -1rem;
+      top: 3rem;
+      transform: scale(1);
+    }
+      
+    }

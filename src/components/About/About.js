@@ -20,7 +20,7 @@ export default function About(){
             I love to create web apps that would make life easy and enjoyable for people. 
             I have just completed MERN Stack at Guvi Geeks of IIT-Madras and IIT-Ahamadabad incubated company</p>
 
-            <p className="description"><img src={star} className="star"/> 
+            <p className="description des-2"><img src={star} className="star"/> 
             Looking forward to showcasing and utilizing
              my current skill set and experience of working on 
              projects to grow and achieve organizational goals.</p>

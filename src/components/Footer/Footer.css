@@ -26,3 +26,40 @@
     color: white;
     border-radius: 5px;
 }
+
+@media screen and (max-width:640px){
+
+  .f-content{
+    transform: scale(0.6);
+  }
+  .btn{
+    transform: scale(0.7);
+    position: relative;
+    bottom: 9rem;
+  }
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .f-content{
+        transform: scale(1);
+        top: 1rem;
+      }
+      .btn{
+        transform: scale(0.7);
+        position: relative;
+        bottom: 9rem;
+      }
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1024px){
+    .f-content{
+        transform: scale(1.2);
+        top: 4rem;
+      }
+      .btn{
+        transform: scale(0.7);
+        position: relative;
+        bottom: 9rem;
+      }
+}

@@ -53,12 +53,98 @@
     bottom: 150px;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:640px){
   .about{
     width: 150%;
     transform: scale(0.6);
     position: relative;
-    left: -9rem;
-    top: 6rem;
+    left: -11rem;
+    top: 10rem;
   }
+  .a-name{
+    transform: scale(1.1);
+  }
+  .description{
+    transform: scale(1.1);
+    width: 100%;
+    position: relative;
+    left: -0.1rem;
+  }
+  .men{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .about{
+        width: 150%;
+        transform: scale(0.7);
+        position: relative;
+        left: -16rem;
+        top: 10rem;
+        height: 100vh;
+        
+      }
+      .a-name{
+        transform: scale(1.5);
+        position: relative;
+        left: 14rem;
+        top: 0.5rem;
+      }
+      .description{
+        transform: scale(1.5);
+        width: 50%;
+        position: relative;
+        left: 7rem;
+        top: 2rem;
+        
+      }
+      .des-2{
+        top: 5rem;
+      }
+      .men{
+        transform: scale(1);
+        bottom: 11rem;
+        left: 19rem;
+      }
+      .a-heading{
+        transform: scale(1.6);
+      }
+
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1024px){
+    .about{
+        width: 150%;
+        transform: scale(0.7);
+        position: relative;
+        left: -20rem;
+        top: 5rem;
+        
+      }
+      .a-name{
+        transform: scale(1.5);
+        position: relative;
+        left:21.5rem;
+        top: 0.5rem;
+      }
+      .description{
+        transform: scale(1.5);
+        width:70%;
+        position: relative;
+        left: 15.5rem;
+        top: 2rem;
+      }
+      .des-2{
+        top: 4rem;
+      }
+      .men{
+        transform: scale(1.5);
+        bottom: 14rem;
+        left: 21rem;
+      }
+      .a-heading{
+        transform: scale(1.3);
+      }
+
 }

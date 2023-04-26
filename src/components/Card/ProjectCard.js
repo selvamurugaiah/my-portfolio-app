@@ -6,7 +6,7 @@ import { AiFillCalendar } from "react-icons/ai";
 const Experience = ({company,role,year,place})=>{   
     
     return(
-        <div className="card">
+        <div className="card experience">
             <div className="e-card">
             <div className="e-border">
             <span className="clg">{company}</span>

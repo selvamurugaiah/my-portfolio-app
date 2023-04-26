@@ -63,12 +63,7 @@ export default function ProjectDetails(){
             />
 
             </div>
-            <div className="second-set">
-           
-          
-
-            </div>
-            
+        
             </div>
             
             </div>
