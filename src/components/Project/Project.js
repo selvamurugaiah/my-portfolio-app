@@ -29,8 +29,7 @@ export default function ProjectDetails(){
               title={"Admin-Dashboard"}
               content={"Admin dashbord using react it is just a simple replica of admin dashboard. In this we can add users by just filling the details."}
               code ={"https://github.com/selvamurugaiah/admin-app"}
-              live ={"rad-sopapillas-d134f7.netlify.app/"}
-            />
+              live ={"https://rad-sopapillas-d134f7.netlify.app/"}/>
                 <ProjectCard
               img={ecommerce}
               title={"E-Commerce-Site"}
@@ -45,21 +44,21 @@ export default function ProjectDetails(){
               title={"Student-Teacher-Management"}
               content={"This web is build by using react in which we can add users, see user profiles and we can set the type of user as student/teacher"}
               code ={"https://github.com/selvamurugaiah/crud-fetch-app"}
-              live ={"fantastic-florentine-756292.netlify.app/"}
+              live ={"https://fantastic-florentine-756292.netlify.app/"}
             />
               <ProjectCard
               img={kural}
               title={"Kural-Dictionary"}
               content={"Search your kural number and learnit.Dictionary it have tamil and engilsh meanings"}
               code ={"https://github.com/selvamurugaiah/admin-app"}
-              live ={"rad-sopapillas-d134f7.netlify.app/"}
+              live ={"https://rad-sopapillas-d134f7.netlify.app/"}
             />
              <ProjectCard
               img={priceCart}
               title={"Price-Cart"}
               content={"Price-Cart is representing subscription details to get plan"}
               code ={"https://github.com/selvamurugaiah/price-cart"}
-              live ={"wonderful-custard-b1e94c.netlify.app/"}
+              live ={"https://wonderful-custard-b1e94c.netlify.app/"}
             />
 
             </div>

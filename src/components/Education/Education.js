@@ -44,7 +44,6 @@ const Education = ()=>{
 
 
                 </div>
-        
             <div className="edu-right">
             <h2 className="ex-heading"><AiFillBulb/>Experience</h2>
             <div className="experience">
@@ -54,6 +53,7 @@ const Education = ()=>{
                year ={"2020-2022"}
                place = { "Ambattur,Chennai"}
                />
+          
             </div>
            
             </div>

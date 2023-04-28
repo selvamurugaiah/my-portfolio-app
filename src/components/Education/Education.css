@@ -49,8 +49,8 @@
 }
 .experience{
     position: relative;
-    bottom:665px;
-    left:600px; 
+    bottom:330px;
+    right:-600px; 
 }
 @media screen and (max-width:640px){
 
