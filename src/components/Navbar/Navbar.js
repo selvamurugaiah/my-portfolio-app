@@ -5,6 +5,11 @@ import { Link } from "react-scroll";
 import { AiOutlineMenu } from "react-icons/ai";
 
 export default function Navbar(){
+
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector(".n-wrapper");
+        header.classList.toggle("sticky", this.window.scrollY >0);
+    })
     
     return(
         <div className="n-wrapper" >

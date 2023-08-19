@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App"
     style={{
-      background:darkMode? 'rgb(211, 36, 144)':'black',
+      background:darkMode?'black': 'linear-gradient(rgb(30, 30, 29),rgb(226, 34, 143),rgb(30, 30, 29),rgb(226, 34, 143),rgb(30, 30, 29),rgb(226, 34, 143),rgb(30, 30, 29),rgb(226, 34, 143))',
       color:darkMode? 'white':'white'
     }}
     >
