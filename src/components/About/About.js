@@ -7,7 +7,9 @@ import men from '../../img/men.png';
 export default function About(){
     const theme = useContext(themeContext)
     const darkMode =theme.state.darkMode;
+
     const about = document.querySelectorAll(".slider")
+    
     const observer = new IntersectionObserver(entries=>{
       entries.forEach(entry =>{
         if(entry.isIntersecting){
