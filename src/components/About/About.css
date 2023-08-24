@@ -53,6 +53,18 @@
     bottom: 150px;
 }
 
+.slider{
+  transform: translateX(-100%);
+    transition: all 4s;
+  
+  }
+  
+  .show{
+      opacity: 1;
+      filter: blur(0);
+      transform: translateX(0);
+  }
+
 @media screen and (max-width:640px){
   .about{
     width: 150%;
@@ -112,6 +124,8 @@
       }
 
 }
+
+
 
 @media screen and (max-width: 1366px) and (min-width: 1024px){
     .about{

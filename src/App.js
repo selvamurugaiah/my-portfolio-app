@@ -13,6 +13,7 @@ import { useContext } from "react";
 function App() {
   const theme = useContext(themeContext)
   const darkMode =theme.state.darkMode;
+  
   return (
     <div className="App"
     style={{
@@ -20,6 +21,7 @@ function App() {
       color:darkMode? 'white':'white'
     }}
     >
+      
      <Navbar/>
      <Intro/>
      <About/>

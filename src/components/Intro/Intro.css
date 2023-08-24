@@ -96,6 +96,17 @@ cursor: pointer;
     font-size: 40px;
     font-family:'Times New Roman', Times, serif ;
 }
+.intro-cont{
+transform: translate(60px);
+  transition: all 1s;
+
+}
+
+.intro-cont.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
 
 @media screen and (max-width:640px){
     .intro{

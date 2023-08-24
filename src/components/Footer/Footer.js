@@ -14,9 +14,9 @@ const Footer = () => {
         <div className='f-content'>
             <span>selvamurugaiah100@gmail.com</span>
             <div className='f-icons'>
-            <a href="https://github.com/selvamurugaiah"><AiFillGithub color='white' size='3rem'/></a>
-             <a href="https://www.linkedin.com/in/selvam-m-434676258/"><BsLinkedin color='white' size='3rem'/></a>
-            <a href="https://mail.google.com/mail/u/0/?hl=en-GB&tf=cm&fs=1&to=selvamurugaiah100@gmail.com"><AiOutlineMail color='white' size='3rem'/></a>
+            <a href="https://github.com/selvamurugaiah" target='_blank'><AiFillGithub color='white' size='3rem'/></a>
+             <a href="https://www.linkedin.com/in/selvam-m-434676258/" target='_blank'><BsLinkedin color='white' size='3rem'/></a>
+            <a href="https://mail.google.com/mail/u/0/?hl=en-GB&tf=cm&fs=1&to=selvamurugaiah100@gmail.com" target='_blank'><AiOutlineMail color='white' size='3rem'/></a>
 
             </div>
             <Link spy={true} to="Navbar" smooth={true} className="active">

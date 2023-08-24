@@ -9,10 +9,12 @@ import Card from "../Card/Card";
 
  
 const Education = ()=>{
+
+
     return(
         <div className="education" id="Education">
             <h1 className="e-heading"id="e-journey">My <span className="e-journey">Journey</span></h1>
-            <div className="edu-left">
+            <div className="edu-left eduhide">
                 <div>
                 <h2 className="edu-heading"><IoIosSchool/>Education</h2>
             <div className="degree">
