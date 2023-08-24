@@ -8,8 +8,10 @@ export default function About(){
     const theme = useContext(themeContext)
     const darkMode =theme.state.darkMode;
 
-    const about = document.querySelectorAll(".slider")
-    
+    {
+        /*
+     const about = document.querySelectorAll(".slider")
+
     const observer = new IntersectionObserver(entries=>{
       entries.forEach(entry =>{
         if(entry.isIntersecting){
@@ -25,8 +27,12 @@ export default function About(){
     about.forEach(about=>{
         observer.observe(about)
     })
+
+        */
+    }
+   
     return(
-        <div className="about slider" id="About">
+        <div className="about" id="About">
             <div className="a-left" style={{color:darkMode?'black':'black'}}>
             <div>
             <h1 className="a-heading" >About</h1>

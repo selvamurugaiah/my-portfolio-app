@@ -53,6 +53,7 @@
     bottom: 150px;
 }
 
+/*
 .slider{
   transform: translateX(-100%);
     transition: all 4s;
@@ -64,6 +65,7 @@
       filter: blur(0);
       transform: translateX(0);
   }
+  */
 
 @media screen and (max-width:640px){
   .about{
