@@ -44,7 +44,18 @@
 .s-name{
    font-size: 25px;
 }
+
 @media screen and (max-width:640px){
+    
+    .skillset{
+        flex-direction: column;
+        
+    }
+
+}
+
+
+@media screen and (min-width:640px) and (max-width:768px){
     
     .skillset{
         flex-direction: column;
@@ -58,9 +69,19 @@
         flex-direction: column;
     }
 }
-@media screen and (max-width: 1366px) and (min-width: 1024px){
+
+@media screen and (max-width: 1155px) and (min-width: 1024px){
     .skillset{
-        flex-direction: column;
+        transform: scale(0.85);
+      }
+      .headers{
+          transform: scale(1.3);
+      }
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1155px){
+    .skillset{
+      transform: scale(0.9);
     }
     .headers{
         transform: scale(1.3);

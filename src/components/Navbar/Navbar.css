@@ -70,21 +70,32 @@
      
     }
   }
+  @media screen and (min-width:640px) and (max-width:768px){
+    .n-list{
+     display: none;
+     
+    }
+  }
 
   @media screen and (max-width: 1024px) and (min-width: 768px){
    
     .n-wrapper{
       transform: scale(0.7);
-      left: -7rem;
+      left: -7.5rem;
+      
     }
+    .sticky{
+      
+    }
+  
 
   }
 
   @media screen and (max-width: 1366px) and (min-width: 1024px){
    
     .n-wrapper{
-      transform: scale(1);
-      left: -1rem;
+      transform: scale(0.9);
+      left: -3rem;
     }
 
   }

@@ -126,17 +126,43 @@ transform: translate(60px);
     }
     
   }
+  @media screen and (min-width:640px) and (max-width:768px){
+    .intro{
+     flex-direction: column;
+     gap: 7rem;
+    }
+    .i-right{
+        transform: scale(0.7);
+        left: -8rem;
+    }
+    span.description{
+        transform: scale(0.9);
+        position: relative;
+        left: -0.5rem;
+        width: 100%;
+        
+    }
+    
+  }
   @media screen and (max-width: 1024px) and (min-width: 768px){
   .intro{
     flex-direction: column;
     gap: 4rem;
   }
   .i-right{
-    left: -5rem;
+    left: -7rem;
+    top: 3rem;
   }
   .i-left{
     left: -1rem;
   }
+  span.description{
+    transform: scale(1);
+    left: 0.4rem;
+    top: -1rem;
+    width: 100%;
+    
+}
     
   }
 
@@ -154,5 +180,14 @@ transform: translate(60px);
       top: 3rem;
       transform: scale(1);
     }
+    span.description{
+        transform: scale(1);
+        left: 0.4rem;
+        top: -1rem;
+        width: 100%;
+        
+    }
       
     }
+
+    
