@@ -64,7 +64,7 @@ import {useContext} from 'react'
                   
             </div>
          
-            <a href='https://drive.google.com/file/d/1nyYO9800xokLVKoz7WdzTFHMcsW0QI4-/view?usp=drive_link' target="_blank" download='selva.pdf'>
+            <a href='https://drive.google.com/file/d/1nyYO9800xokLVKoz7WdzTFHMcsW0QI4-/view' target="_blank" download='selva.pdf'>
                         
                         <button className="button">Get Resume</button>
                         </a>
